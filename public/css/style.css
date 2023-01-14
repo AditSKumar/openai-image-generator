@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #f9b64d;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+ 
+  align-items: center;
+}
+
+.navtext{
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Showcase */
+.showcase {
+  height: 450px;
+  width: 100%;
+  background: #BB2649;
+}
+
+.showcase h1 {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.showcase form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.showcase form input,
+form select {
+  font-size: 20px;
+  width: 500px;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+form button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+form button:disabled {
+  pointer-events: none;
+}
+
+form button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+form button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+form button:hover {
+  transform: scale(1.1);
+}
+
+/* Image */
+
+.image {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.msg {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 1rem;
+}
